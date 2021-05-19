@@ -14,3 +14,4 @@ target_link_libraries(ros2_cmake ${rclcpp_LIBRARIES})
 
 message(STATUS "rclcpp_INCLUDE_DIRS = ${rclcpp_INCLUDE_DIRS}")
 #message(STATUS "libs = ${rclcpp_INCLUDE_DIRS}")
+message(STATUS "rclcpp_LIBRARIES = /opt/ros/foxy/lib/*")
